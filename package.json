@@ -1,0 +1,40 @@
+{
+  "name": "vue-template",
+  "version": "1.0.0",
+  "description": "PES Portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --colors",
+    "watch": "webpack --progress --colors --watch",
+    "dev": "webpack-dev-server --progress --colors --content-base dist/ --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:doonetheprune/vue-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/doonetheprune/vue-template",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "bootstrap": "^3.3.7",
+    "bootswatch": "^3.3.7",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "font-awesome": "^4.6.3",
+    "html-webpack-plugin": "^2.22.0",
+    "jquery": "^3.1.1",
+    "json-loader": "^0.5.4",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "lodash": "^4.16.4",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "vue": "^2.0.1",
+    "vue-router": "^2.0.0",
+    "webpack": "^1.13.2"
+  }
+}
